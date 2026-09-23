@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+</aiml>
+<!-- Army worm / umgundzatjani -->
+<category>
+  <pattern>ARMY WORM *</pattern>
+  <template>
+    African armyworm (umgundzatjani) is currently a problem in many areas.
+    Mechanical control: Dig a plough furrow (umsele) around your field to trap the worms.
+    You can also use chickens to eat them.
+    Chemical control (last resort): Use mild insecticides such as Decis/Forte or Cypermethrin (yellow stripe).
+    Do NOT use highly toxic chemicals (red stripe).
+    Report to your nearest Agricultural Extension Officer.
+  </template>
+</category>
+
+<category>
+  <pattern>WHAT SHOULD I DO ABOUT ARMYWORMS</pattern>
+  <template><srai>ARMY WORM HELP</srai></template>
+</category>
+
+<!-- Fertilizer example -->
+<category>
+  <pattern>HOW MUCH FERTILIZER FOR MAIZE</pattern>
+  <template>
+    For maize, a common recommendation is 150–200 kg of NPK (e.g. 2:3:2) at planting, followed by top-dressing with LAN or urea after 4–6 weeks.
+    Always base this on a recent soil test if possible.
+    Check the current Ministry Input Subsidy packages for exact quantities and prices.
+  </template>
+</category>
+
+</aiml>
